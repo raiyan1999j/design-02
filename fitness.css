@@ -1,0 +1,126 @@
+*{box-sizing:border-box;}
+body{
+	margin:0px;
+	padding:0px;
+	font-family:arial;
+}
+.container{
+	width:90%;
+	margin:auto;
+}
+.header{
+	display:flex;
+	flex-flow:row wrap;
+}
+.header-flex-1{
+	width:80%;
+}
+.bgimg{
+	background-image:url(https://i.postimg.cc/JhWNqyLk/dwayne-johnson-gym-wallpaper-42879-734389496.jpg);
+	background-size:cover;
+	height:450px;
+	width:100%;
+}
+.header-link{
+	text-decoration:none;
+	color:white;
+	font-family:helvetica;
+	float:left;
+	font-size:30px;
+}
+.header-list{
+	list-style-type:none;
+	padding:0px;
+	margin:0px;
+	float:right;
+}
+.list-item{
+	float:left;
+}
+.list-item a{
+	display:block;
+	text-decoration:none;
+	color:crimson;
+	padding:5px 10px;
+	font-weight:bolder;
+	text-shadow:2px 2px 5px black;
+}
+.list-item a:hover{
+	padding:10px 10px;
+}
+.header-flex-2{
+	background-color:#c44569;
+	height:450px;
+	width:20%;
+	color:white;
+}
+.content{
+	width:90%;
+	margin:auto;
+}
+.bgimg-2{
+	background-image:url(https://i.postimg.cc/bwQRt0tn/1da92ce3631dc392b976aad2ea15a5c6-women-models-sports-women.jpg);
+	height:600px;
+	width:100%;
+	background-size:cover;
+	position:relative;
+	margin-top:-20px;
+}
+.women-content{
+	position:absolute;
+	margin:10% 0 0 60%;
+}
+.brefing{
+	width:50%;
+	color:white;
+}
+.bgimg-3{
+	background-image:url(https://i.postimg.cc/Y0GNsWqf/Man-Working-Out-With-Kettlebell-Outdoors-in-the-Park.jpg);
+	background-size:cover;
+	position:relative;
+	height:600px;
+	width:100%;
+
+}
+.men-content{
+	position:absolute;
+	margin:10% 40% 0 20%;
+}
+.brefing-2{
+	width:50%;
+	color:#dfe6e9;
+}
+.footer{
+	background-color:#2d3436;
+	text-align:center;
+	line-height:150px;
+	font-size:75px;
+	color:white;
+	height:150px;
+}
+.crossfit{
+    color: #fff;
+    background: linear-gradient(#FF416C,#FF4B2B);
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 8px 10px 6px;
+    margin: 0 0 0 25px;
+    border: none;
+    border-radius: 30px/50px;
+    transition: all 0.3s ease-in-out;
+}
+.crossfit:hover{
+    color: #fff;
+    background: linear-gradient(#FF4B2B,#FF416C);
+    letter-spacing: 3px;
+    box-shadow: 0 0 0 1px white, 0 0 0 3px #FF416C, 0 0 0 2px white inset,
+                0 0 0 5px #FF416C, 6px 6px 0 2.5px white, 8px 8px 0 5px #FF416C;
+}
+
+
+.part-1 .animate__animated{
+	opacity:1;
+}
